@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.y.playahead.R;
+import com.mob.MobSDK;
+import com.mob.ums.gui.UMSGUI;
 
 
 public class PAMainActivity extends Activity {
@@ -16,6 +18,7 @@ public class PAMainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pa_activitymain);
+        MobSDK.init(this);
 
         ImageButton ibt_sd=(ImageButton)findViewById(R.id.ibt_sd);
         ImageButton ibt_2048=(ImageButton)findViewById(R.id.ibt_2048);
@@ -50,8 +53,9 @@ public class PAMainActivity extends Activity {
         bt_setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(PAMainActivity.this,PASetting.class);
-                startActivity(intent);
+//                Intent intent=new Intent(PAMainActivity.this,PASetting.class);
+//                startActivity(intent);
+                UMSGUI.showProfilePage();
             }
         });
     }
