@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#dddddd">
+    android:background="@color/FFDCA2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                     android:id="@+id/ibt_sd"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="#dddddd"
+                    android:background="@color/FFDCA2"
                     android:src="@drawable/pasd" />
 
                 <TextView
@@ -74,7 +74,7 @@
                     android:id="@+id/ibt_2048"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="#dddddd"
+                    android:background="@color/FFDCA2"
                     android:src="@drawable/pa2048" />
 
                 <TextView
@@ -99,7 +99,7 @@
                     android:id="@+id/ibt_szhrd"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="#dddddd"
+                    android:background="@color/FFDCA2"
                     android:src="@drawable/paszhrd" />
 
                 <TextView
@@ -123,7 +123,7 @@
                     android:id="@+id/ibt_txz"
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
-                    android:background="#dddddd"
+                    android:background="@color/FFDCA2"
                     android:src="@drawable/patxz" />
 
                 <TextView
