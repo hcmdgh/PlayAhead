@@ -50,6 +50,9 @@ public class PAMainActivity extends Activity {
             }
         });
 
+
+
+
         bt_setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
